@@ -15,7 +15,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3))
     } else {
-      S.UI.simulate('|#countdown 3||王乐|我|会|以|闺蜜|的|身份|陪|你|走|下|去|')
+      S.UI.simulate('|#countdown 3||这个|够|不|够|浪|漫|')
     }
 
     S.Drawing.loop(function () {
